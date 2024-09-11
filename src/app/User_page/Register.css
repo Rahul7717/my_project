@@ -1,0 +1,104 @@
+.register_page{
+    position: absolute;
+    width: fit-content;
+    margin-left:-5rem;
+    margin-top: -10rem;
+    box-shadow: 0rem 0rem 50rem 0rem black;
+    padding: 30px;
+    border-radius: 15px;
+    background-color:rgb(255, 255, 255);
+}
+
+.register_flag {
+  padding: 12px;
+  margin-top: 5px;
+}
+
+.register_page_title{
+    font-weight: 400;
+    text-align: center;
+}
+
+.register_form{
+    border: 1px solid rgba(128, 128, 128, 0.605);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#country_code{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: transparent;
+    width: 75px;
+}
+
+.lable_name{
+    color: rgba(0, 0, 0, 0.662);
+    font-weight: 700;
+    font-size:18px;
+}
+
+#label_names{
+    width: 24.7rem;
+}
+
+.input_bar{
+    border: 1px solid rgba(128, 128, 128, 0.605);
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 20rem;
+    outline: none;
+    font-size: 18px;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+.input_bar:hover{
+    border:1px solid #009f7fcd;
+}
+
+.register_btn{
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 1rem;
+    border: transparent;
+    font-size:15px;
+    padding: 20px; 
+    width:10rem;
+    font-size:17px;
+    transition: 250ms ease-in-out;
+}
+
+#register1:active{
+    background-color: transparent;
+    color: transparent;
+}
+
+#register2:active{
+    border: none;
+    background-color: transparent;
+    color: transparent;
+}
+
+#register1{
+    color: white;
+    background-color: #009f7fcd;
+}
+
+#register2{
+    border: 1px solid rgba(128, 128, 128, 0.605);
+    color: black;
+    background-color:transparent;
+}
+
+.error{
+    color: red;
+    font-size:18px;
+    margin-left: 5px;
+}
+
+.ReactFlagsSelect-module_flagsSelect__2pfa2{
+    width: 100% !important;
+}

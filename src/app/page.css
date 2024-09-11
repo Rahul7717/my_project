@@ -1,0 +1,121 @@
+@media screen and (max-width:927px) {
+    .container{
+        width: 144vw;
+    }
+
+    .open_login{
+        margin-left: 20rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    
+    .open_login{
+        text-align: center;
+    }
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .error-message {
+    position: absolute;
+    font-size: 0.80rem;
+    color: rgba(255, 0, 0, 0.749);
+    margin: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: -28px;
+
+} */
+.Display_username{
+    transition: 1s ease-in-out;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    background-color: transparent;
+    font-size: 1.563rem; 
+    padding: 8px;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    border: 2px dotted #009f7fcd;
+}
+
+.open_login{
+    float: right;
+    border: 2px solid #009f7fcd;
+    color: black;
+    background-color: transparent;
+    font-size:1.25rem;
+    font-weight: 550;
+    padding: 10px;
+    width:6.5rem;
+    border-radius: 50px;
+    margin: 10px 10px 10px 10px;
+    transition: 500ms ease-in-out;
+    outline: none;
+    transition: 150ms ease-in-out;
+}
+
+.open_login:active{
+    background-color: transparent;
+    color: transparent;
+}
+
+.container{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    padding:15px;
+    width: 96.5vw;
+    border-radius: 10px;
+    
+}
+
+.page_1{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.imagess{
+    border-radius: 10px;
+}
+
+.page2{
+    padding: 1rem;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.description_page{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    font-size: 1rem;
+    font-weight: 450;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+
+.read-btn{
+    cursor: pointer;
+    border: transparent;
+    font-size: 1rem;
+    float: left;
+    transition: 500ms;
+    font-weight: 550;
+    color: rgb(7, 187, 109);
+    background-color: transparent;
+}
+
+.read-btn:hover{
+    background-color: transparent;
+    color: rgb(18, 216, 130);
+}

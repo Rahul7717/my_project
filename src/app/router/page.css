@@ -1,0 +1,203 @@
+
+.images{
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    width:20rem;
+    height: 20rem;
+    transition: 200ms ease-in-out;
+}
+
+  .modal-content {
+    padding: 20px;
+    border-radius: 50px; 
+    max-width: 80%;
+    max-height: 80%;
+    font-size: medium;
+    font-weight: 550;
+    position:absolute;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .pop_up_page {
+    background-color: transparent;
+    border-radius:20px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    transition: 350ms;
+  }
+  
+  .pop_up_page:hover{
+    margin-top: -5px;
+    box-shadow: 0px 0px 20px 5px rgba(229, 156, 19, 0.925);
+  }
+  
+  .close-btn{
+
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    float: right;
+    font-size: larger;
+    font-weight: 800;
+    background-color: #efbc4d;
+    border: transparent;
+    outline: none;
+    padding: 10px;
+  border-radius: 15px;
+position: absolute;
+    box-shadow: transparent;
+width: 5rem;
+text-align: center;
+align-items: center;
+margin-top: 22rem;
+/* margin-left: 37.3rem; */
+margin-left: 35rem;
+    transition: 250ms;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .close-btn:hover{
+    background-color:whitesmoke;
+    box-shadow: 4px 4px 2px 2px black;
+  }
+  .close-btn:active{
+    color: transparent;
+    background-color: transparent;
+  }
+  
+  .product-info-content {
+    border: 3px solid rgba(255, 166, 0, 0.616);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.691);
+    transition: 550ms ease-in-out;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;  
+  }
+
+  .product_description{
+    width:50rem;
+    font-size: 18px;
+  }
+
+  .product-info:hover{
+    box-shadow: 0px 0px 10px 10px orange;
+  }
+  
+  #product_names {
+    font-size: 25px;
+    font-weight:600;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .product_prices {
+    display: flex;
+    color: rgb(60, 223, 60);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cutoff_prices {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .price{
+    margin-right: 5px;
+    color: black;
+    margin-right: 5px;
+  }
+  
+  .quantity-controls {
+    color: white;
+    width: 18rem;
+    display: flex;
+    background-color: rgb(60, 223, 60);
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .btn_decrement{
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding:  5px;
+    font-size: 35px;
+    cursor: pointer;
+    width: 2rem;
+    transition: 110ms ease-in-out;
+  }
+  
+  .btn_increment {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding:  5px;
+    font-size: 35px;
+    cursor: pointer;
+    outline: none;
+    transition: 110ms ease-in-out;
+  
+  }
+  
+  .btn_increment:active{
+    border-radius: 50px;
+    background-color: rgb(86, 255, 86);
+    outline: none;
+  }
+  
+  .btn_decrement:active{
+    border-radius: 50px;
+    background-color: rgb(86, 255, 86);
+    outline: none;
+  }
+  
+  .add_items1 {
+    margin: 0 10px;
+    font-size: 30px;
+  }
+  
+  .list_of_items {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .links {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  #mangos {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .read_btn {
+    background-color: #efbc4d;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 550;
+    transition: 550ms;
+  }
+  
+  .read_btn:hover{
+    box-shadow: 5px 5px 0px 1px orangered;
+  }
